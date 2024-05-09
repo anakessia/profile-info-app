@@ -28,7 +28,7 @@ git clone https://github.com/anakessia/profile-info-app.git
 
 Navegue até o diretório do projeto:
 ```sh
-cd info-profile
+cd profile-info-app
 ```
 
 Instale as dependências do projeto:
