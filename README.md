@@ -18,3 +18,26 @@
 - Express.js: Framework web para criação de APIs e roteamento.
 - Nodemon: Ferramenta para reiniciar automaticamente o servidor Node.js durante o desenvolvimento.
 - Implantação de dados locais: Armazenamento local das informações do usuário sem a necessidade de um banco de dados externo.
+
+# Instruções de uso
+
+Faça o clone do repositório do projeto:
+```sh
+git clone https://github.com/anakessia/profile-info-app.git
+```
+
+Navegue até o diretório do projeto:
+```sh
+cd info-profile
+```
+
+Instale as dependências do projeto:
+```sh
+npm install
+```
+Inicie o servidor de desenvolvimento: 
+```sh
+node server.js
+```
+
+Abra o seu navegador e acesse http://localhost:3000 para visualizar o projeto em execução.
