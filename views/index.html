@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Informações Pessoais</title>
+</head>
+<body>
+    <section class="profile-info">
+        <header>
+          <img src="/img/profile.png" class="user-image" alt="user-profile">
+        </header>
+        <h1 id="name-info">Ana Kessia</h1>
+        <table>
+            <tr>
+                <th>Idade</th>
+                <td id="age-info">28</td>
+            </tr>
+            <tr>
+                <th>Endereço</th>
+                <td id="address-info">Rua Tamanqueiro, N22</td>
+            </tr>
+  
+            <tr>
+              <th>Cidade</th>
+              <td id="city-info">Manaus</td>
+            </tr>
+  
+            <tr>
+              <th>Estado</th>
+              <td id="state-info">Amazonas</td>
+            </tr>
+  
+            <tr>
+                <th>Biografia</th>
+                <td id="bio-info">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.</td>
+            </tr>
+        </table>
+      </section>
+    
+      <section class="updateProfile">
+        <h1>Atualizar Informações</h1>
+        <form action="/update" method="POST" id="update-form">
+          <div class="name">
+            <input type="text" name="name" id="name" placeholder="Nome">
+          </div>
+          <div class="row">
+            <div class="age">
+              <input type="number" name="age" id="age" placeholder="Idade">
+            </div>
+            <div class="address">
+              <input type="text" name="address" id="address" placeholder="Endereço">
+            </div>
+            <div class="city">
+              <input type="text" name="city" id="city" placeholder="Cidade">
+            </div>
+            <div class="state">
+              <input type="text" name="state" id="state" placeholder="Estado">
+            </div>
+          </div>
+          <div class="bio">
+            <textarea name="bio" id="bio" rows="10" cols="20" placeholder="Biografia"></textarea>
+          </div>
+          <button type="submit" class="form-submit">ENVIAR</button>
+        </form>
+      </section>
+      <script src="/js/main.js"></script>
+</body>
+</html>

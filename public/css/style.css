@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  body {
+    height: 100px;
+    background-color: #f5f4f3;
+  }
+  
+  .profile-info,
+ .updateProfile {
+    max-width: 700px; 
+    margin: 0 auto;
+    margin-top: 4rem;
+    border-radius: 10px;
+    padding: 56px 80px 56px 80px;
+    background-color: rgb(248, 237, 232);
+    box-shadow: 0 0 5px rgba(75, 73, 71, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .user-image {
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 10px; 
+    position: relative;
+  }
+  
+  .profile-info h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+
+  table {
+    padding: 0 70px 56px 70px;
+  }
+
+  tr {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  
+  tr:not(:last-child) {
+    padding-bottom: 2rem;
+  }
+  
+  th {
+    color: #2f3031;
+    font-size: 16px;
+  }
+  
+  td {
+    font-size: 15px;
+  }
+  
+  .updateProfile h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  form textarea,
+  input {
+    display: block;
+    width: 100%;
+    border: 3px solid #353535;
+    border-radius: 10px;
+    margin: 10px auto; 
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    background-color: #fcfcfa;
+    
+  }
+
+  button {
+    width: 30%;
+    border: 3px solid #1e1e1e;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    background-color: #cec6bb;
+    justify-content: center;
+  }
+  
+  form input {
+    color: #3e3f40;
+    padding: 0 10px;
+   
+  }
+  
+  form input::placeholder {
+    color: #0b111a;
+  }
+  
+  textarea {
+    height: 13rem;
+    padding: 10px 10px 0 10px;;
+    min-height: 8rem;
+    color: #1d1e1f;
+  }
+  
+  textarea::placeholder {
+    color: #0b111a;
+  }
+  
+  form input,
+  button {
+    height: 40px;
+  }
+  
+  form button {
+    cursor: pointer;
+    font-weight: 600;
+    transition: all ease-in-out 0.2s;
+    color: #282726;
+  }
+  
+  form button:hover {
+    color: rgb(28, 27, 27);
+    background-color: #e6e6e0;
+    transition: all ease-in-out 0.2s;
+  }
+
+
+  /* RESPONSIVIDADE */
+  
+@media screen and (max-width: 1520px) {
+    table {
+    padding: 0 48px 56px 48px;
+  }
+
+  .updateProfile {
+    padding: 56px 48px;;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  body {
+      padding: 0.64rem 2.4rem 0.64rem 2.4rem;;
+  }
+
+  .user-image {
+    width: 100px;
+  }
+}
+
+
+@media screen and (max-width: 920px) {
+  body {
+      padding: 0.04rem 0.1rem;
+  }
+
+  
+  table {
+    padding: 0 48px 56px 48px;;
+  }
+
+  
+  .updateProfile {
+    padding:  56px 48px;
+  }
+
+  .user-image {
+    width: 100px;
+
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body {
+      padding: 0.64rem 0.96rem;;
+  }
+
+  table {
+    padding: 0 32px 56px 32px;
+  }
+
+  .user-image {
+    width: 100px;
+
+  }
+
+  .updateProfile {
+    padding: 56px 32px;
+  }
+}
+
+
+
+@media screen and (max-width: 570px) {
+  body {
+    padding: 0px;
+  }
+
+  .user-image {
+    width: 80px;
+    margin-bottom: -3rem;
+    bottom: 3rem;
+  }
+
+  .profile-info {
+  border-radius: 0px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);;
+}
+  .profile-info h1 {
+    font-size: 22px;
+    margin-bottom: 2rem;
+  }
+
+  table {
+    padding: 0 24px 56px 24px;;
+  }
+
+  .updateProfile {
+    border-radius: 0px;
+    padding: 3.5rem 1.5rem;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+}
