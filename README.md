@@ -1,6 +1,6 @@
 # Projeto de Gerenciamento de Informações do Usuário
 
-<p>Este projeto é uma aplicação web desenvolvida utilizando HTML, CSS, JavaScript e Node.js.<p>
+<p>Este projeto é uma aplicação web desenvolvida utilizando HTML, CSS, Javascript e Node.js.<p>
 <p>Ele permite aos usuários visualizar e atualizar suas informações pessoais, incluindo nome, idade, endereço e biografia.</p>
 <p>O projeto não requer um banco de dados externo, pois utiliza uma implementação de dados armazenados localmente.<p>
 
